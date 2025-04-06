@@ -48,7 +48,7 @@ def reset_all():
     return "", None, "", ""
 
 with gr.Blocks(theme=gr.themes.Base(), css="body { background-color: #f8f9fa; }") as app:
-    gr.Markdown("<h1 style='text-align: center;'>🩺 AI Doctor Assistant</h1>")
+    gr.Markdown("<h1 style='text-align: center;'> 🩺 AI DocBot</h1>")
     gr.Markdown("<p style='text-align: center;'>Upload your voice and an image for a quick AI-based health assessment</p>")
 
     with gr.Row():
